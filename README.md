@@ -62,7 +62,7 @@ The proposed CampusCart application will include:
             CAMPUSCART
 =================================
 
-Welcome to CampusCart!
+Welcome to CampusCart
 1. View Products
 2. Add Product to Cart
 3. View Cart
