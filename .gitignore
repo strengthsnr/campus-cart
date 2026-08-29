@@ -1,5 +1,5 @@
 # Python Cache and bytecode files
-_pycache__/
+__pycache__/
 *.py[cod]
 *$py.class  
 *.so
@@ -10,9 +10,16 @@ _pycache__/
 venv/
 env/
 ENV/
+
+# Distribution / Packaging
 *.egg-info/
 dist/
 build/
 
 # VS Code
 .vscode/
+
+# Environment variables
+.env
+.env.*
+!.evn.example   
