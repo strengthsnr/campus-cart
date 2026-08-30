@@ -11,7 +11,7 @@ Among many others, this will allow vendors to:
 - Add products to a customer's cart
 - Calculate cart totals
 - Generate Receipts
-- Manage basic product information. For example, name, price, etc.
+- Manage basic product information. For example, name, quantity, etc.
 
 ---
 
