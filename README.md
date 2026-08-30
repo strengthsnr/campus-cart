@@ -13,6 +13,7 @@ Among many others, this will allow vendors to:
 - Generate Receipts
 - Manage basic product information. For example, name, quantity, etc.
 
+
 ---
 
 ## PROBLEM STATEMENT
@@ -62,7 +63,7 @@ The proposed CampusCart application will include:
             CAMPUSCART
 =================================
 
-Welcome to CampusCart!
+Welcome to CampusCart
 1. View Products
 2. Add Product to Cart
 3. View Cart
