@@ -28,3 +28,19 @@ inventory = {
         "stock": 25
     }
 }
+
+# Creation of the shopping cart.
+
+cart = []
+
+
+# Main menu
+while True:
+    print("\n===== CampusCart Menu =====")
+    print("1. View Catalog")
+    print("2. Add Item to Cart")
+    print("3. View Cart")
+    print("4. Checkout")
+    print("5. Exit")
+
+ 
