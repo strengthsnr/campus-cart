@@ -139,3 +139,9 @@ while True:
         print("Thank you for shopping with CampusCart!")
 
         cart.clear()
+        
+    elif choice == "5":
+        print("Exiting CampusCart. Thank you for shopping!")
+        break
+    else:
+        print("Invalid choice. Please select a valid option.")
