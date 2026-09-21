@@ -42,8 +42,8 @@ while True:
     print("3. View Cart")
     print("4. Checkout")
     print("5. Exit")
-    
-  choice = input("Enter your choice (1-5): ").strip().lower()
+
+    choice = input("Enter your choice (1-5): ").strip().lower()
 
     if choice == "1":
         print("\n===== CampusCart Catalog =====")
@@ -108,4 +108,34 @@ while True:
             )
             cart_total += item["subtotal"]
         print("Total:", cart_total)
- 
+    elif choice == "4":
+        if not cart:
+            print("Your cart is empty")
+            continue
+        cart_total = 0
+        for item in cart:
+            cart_total += item["subtotal"]
+        discount = 0
+        if cart_total > 50:
+            discount = cart_total * 0.10
+        final_total = cart_total - discount
+        for item in cart:
+            inventory[item["id"]]["stock"] -= item["qty"]
+        print("\n===== RECEIPT =====")
+        for item in cart:
+            print(
+                item["name"],
+                "x",
+                item["qty"],
+                "|",
+                item["subtotal"]
+            )
+
+        print("____________________________")
+        print("Subtotal:", cart_total)
+        print("Discount:", discount)
+        print("Total:", final_total)
+        print("============================")
+        print("Thank you for shopping with CampusCart!")
+
+        cart.clear()
