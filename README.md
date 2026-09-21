@@ -70,3 +70,35 @@ Welcome to CampusCart
 4. Checkout
 5. Generate Receipt
 6. Exist
+```
+## DEMO
+
+> Upon the completion of the CLI application, the screenshots below show the CampusCart CLI running successfully.
+
+ The file: 
+```
+main.py
+```
+### View Catalog
+![View Catalog](screenshots/Screenshot_1.png)
+
+
+### Adding quantities of item to cart and displaying of the available stock qauntity for the item
+![Add to Cart](screenshots/Screenshot_2.png)
+![View Cart](screenshots/Screenshot_3.png)
+![Available Stock](screenshots/Screenshot_4.png)
+
+### Testing invalid quantity
+![Invalid quantity](screenshots/Screenshot_5.png)
+
+### Exhausting the available stock quantity
+![Add to cart](screenshots/Screenshot_6.png)
+![Pencil out of stock](screenshots/Screenshot_7.png)
+![Not enough quantiy](screenshots/Screenshot_8.png)
+
+### Test-running the discount feature
+![Add to cart](screenshots/Screenshot_9.png)
+![Add to cart](screenshots/Screenshot_10.png)
+![Add to cart](screenshots/Screenshot_11.png)
+![View cart](screenshots/Screenshot_12.png)
+![Receipt and Exit](screenshots/Screenshot_13.png)
